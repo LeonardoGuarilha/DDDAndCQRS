@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DDD.Infra.CrossCutting.Bus\DDD.Infra.CrossCutting.Bus.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Flunt" Version="1.0.5" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.4" />
+    </ItemGroup>
+
+</Project>
